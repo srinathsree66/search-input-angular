@@ -1,0 +1,57 @@
+@import '../../theme/theming.scss';
+
+.search-action {
+    display: inline-block;
+}
+
+.input-search {
+    padding-left: 20px;
+    box-sizing: border-box;
+    height: scale-8px(5);
+    width: scale-8px(90);
+    border: 1px solid #9FA0A4;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.15);
+
+    &::placeholder {
+        color: #000;
+        font-size: scale-8px(2);
+        letter-spacing: 0;
+        line-height: scale-8px(3);
+    }
+}
+
+.icon-format {
+    padding-top: 2px;
+    background-color: white;
+    height: scale-8px(5);
+    line-height: scale-8px(5);
+    vertical-align: top;
+    width: scale-8px(5);
+    text-align: center;
+    cursor: pointer;
+    border-left: none;
+    display: inline-block;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.15);
+
+
+}
+
+.search-icon {
+    height: scale-8px(3.75);
+    width: scale-8px(3.75);
+    line-height: scale-8px(3.75);
+    text-align: center;
+    outline: none;
+}
+
+.bottom-align {
+    vertical-align: bottom;
+}
+
+.errorMsg {
+    color: red
+}

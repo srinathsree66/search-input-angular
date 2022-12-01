@@ -1,0 +1,35 @@
+<div class="container my-4">
+  <form>
+    <div class="search-action bottom-align">
+      <input type="text" class="input-search" [placeholder]="placeHolder" [minlength]="minLength" name="searchCriteria" [(ngModel)] ="searchCriteria">
+    <span class="icon-format grey-border">
+      <se-icon size="small" class="search-icon" title="search" (click)="searchProduct()">action_search_stroke</se-icon>
+    </span>
+    <div class="errorMsg" *ngIf="hasError">Please provide atleast 3 characters or clear the field and search 
+    </div>
+   </div> 
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
